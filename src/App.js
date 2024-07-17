@@ -9,7 +9,7 @@ function App() {
   const getTracks = async () => {
     setIsLoading(true);
     let data = await fetch(
-      `https://v1.nocodeapi.com/visheshpandey/spotify/dNxiRTREOhvTzsYn/search?q=${
+      `https://v1.nocodeapi.com/geopero123/spotify/SSBefkXVzudmLMPp/search?q=${
         keyword === "" ? "trending" : keyword
       }&type=track`
     );
@@ -26,7 +26,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
             className="navbar-brand"
-            href="https://github.com/giorgigiorga2009"
+            href="https://github.com/giorgigiorga2009/music-player"
           >
             <i className="bi bi-music-note-list mx-3"></i> george-music
           </a>
